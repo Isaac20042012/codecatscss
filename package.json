@@ -1,0 +1,40 @@
+{
+  "name": "snippets-css",
+  "description": "The CodeCatsCSS is a tool designed to streamline front-end development by providing a comprehensive set of ready-to-use snippets for Cascading Style Sheets (CSS). With this extension, developers can save time and reduce errors by easily incorporating common CSS code blocks into their projects.",
+  "displayName": "CodeCatsCSS",
+  "version": "0.0.0",
+  "icon": "./assets/icon.png",
+  "keywords": [
+    "snippets",
+    "Isaac Motta",
+    "CSS",
+    "CodeCatsCSS"
+  ],
+  "publisher": "Isaac20042012",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./snippets/flex-center.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/init.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/media768.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
