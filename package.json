@@ -36,5 +36,9 @@
   "license": "MIT",
   "devDependencies": {
     "vsce": "^2.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rocketseat/rocketseat-vscode-reactjs-snippets"
   }
 }
