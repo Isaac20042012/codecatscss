@@ -1,6 +1,6 @@
 {
   "styles": {
-    "prefix": "flex-center",
+    "prefix": "media768",
     "body": ["@media (min-width: 768px) {", "\t$1", "}"],
     "description": "Add flex center"
   }
